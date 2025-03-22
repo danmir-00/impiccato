@@ -107,6 +107,7 @@ Console.WriteLine("[1] Animali");
 Console.WriteLine("[2] Paesi");
 Console.WriteLine("[3] Strumenti Musicali");
 Console.WriteLine("[4] Parole qualunque");
+Console.Write("\nInserisci la tua scelta (1-4): ");
 string sceltacategoria= Console.ReadLine();
 
     if(sceltacategoria == "1")
@@ -125,7 +126,6 @@ string sceltacategoria= Console.ReadLine();
         chosentxtfile = "parole.txt";
     }
 string[] wordsarray = File.ReadAllLines(chosentxtfile);
-
 ////sistema monete 
 //Console.WriteLine("\n--- SISTEMA DI MONETE E AIUTI ---");
 //Console.WriteLine("- Inizi con 30 monete.");
@@ -213,7 +213,7 @@ while (partita == true)
             //prende lettera e converte in char
             Console.Write("Inserisci una lettera: ");
             lettera = char.ToLower(char.Parse(Console.ReadLine()));
-            lettereUsate= lettera.ToString()+ ", ";
+            lettereUsate+= lettera.ToString()+ ", ";
 
             for (int i = 0; i < parolaAlterata.Length; i++)
             {
@@ -251,7 +251,7 @@ while (partita == true)
                 Console.Write("La parola corrisponde a prima:  ' ");
                 for (int i = 0; i < parolaAlterata.Length; i++)
                 {
-                    Console.Write(parolaAlterata[i] );
+                    Console.Write(parolaAlterata[i] + " ");
                 }
                 Console.Write(" '");
                 Console.WriteLine();
@@ -271,8 +271,8 @@ while (partita == true)
             {
                 parolaFinale += parolaAlterata[i];
             }
-       
-
+            
+            
             if (parolaFinale == parolaEstratta)
             {
                 guessed = true;
@@ -280,7 +280,7 @@ while (partita == true)
                 Console.WriteLine("         COMPLIMENTI!           ");
                 Console.WriteLine("======================================\n");
                 Console.WriteLine("Hai indovinato la parola! Ottimo lavoro!");
-                Console.WriteLine("Hai guadagnato 10 monete extra.\n");
+                //Console.WriteLine("Hai guadagnato 10 monete extra.\n");
                 coins += 10;
                 paroleIndovinate += parolaEstratta + ";";
             }

@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\danie\\OneDrive\\Desktop\\gioco impiccato\\",
+  "WorkspaceRootPath": "C:\\Users\\mirica.daniel\\Desktop\\Projects\\impiccato\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00FDD931-AEE2-42EA-A819-85BBBB84704C}|gioco impiccato\\gioco impiccato.csproj|c:\\users\\danie\\onedrive\\desktop\\gioco impiccato\\gioco impiccato\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00FDD931-AEE2-42EA-A819-85BBBB84704C}|gioco impiccato\\gioco impiccato.csproj|c:\\users\\mirica.daniel\\desktop\\projects\\impiccato\\gioco impiccato\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00FDD931-AEE2-42EA-A819-85BBBB84704C}|gioco impiccato\\gioco impiccato.csproj|solutionrelative:gioco impiccato\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Desktop\\gioco impiccato\\gioco impiccato\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\mirica.daniel\\Desktop\\Projects\\impiccato\\gioco impiccato\\Program.cs",
               "RelativeDocumentMoniker": "gioco impiccato\\Program.cs",
-              "ToolTip": "C:\\Users\\danie\\OneDrive\\Desktop\\gioco impiccato\\gioco impiccato\\Program.cs",
+              "ToolTip": "C:\\Users\\mirica.daniel\\Desktop\\Projects\\impiccato\\gioco impiccato\\Program.cs",
               "RelativeToolTip": "gioco impiccato\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAQwNQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T14:52:14.785Z",
               "EditorCaption": ""
